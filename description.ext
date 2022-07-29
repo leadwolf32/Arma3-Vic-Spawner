@@ -19,9 +19,9 @@ class Header {
 };
 
 // LOAD SCREEN
-author     			= "Red Advisor";
-onLoadName    		= "1st MEU Funop";
-onLoadMission  		= "We are just one unit… and an old one at that. But here we are. One year has past what anyone could ask of us. Our originals are gone. The friends we came with are gone. The friends we met moved on. And now, all that we may have left are those standing beside us and the duty that defines us –op after op, fighting side-by-side together. Where you see a bad unit, I see family, friends, and a place for who swore to fight their way through life before they’d ever turn their backs and run may take a break. And where you see one old unit… I see home. And that is always worth fighting for! -SSgt. Red <3";
+author     			= "Atlas";
+onLoadName    		= "Atlas Test Bed";
+onLoadMission  		= "I aim to misbehave";
 overviewText   		= "Standard Funop";
 loadScreen    		= "meuLoad.jpg";
 overviewPicture   	= "Screen.paa";
