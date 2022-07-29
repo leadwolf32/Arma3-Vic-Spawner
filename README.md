@@ -39,6 +39,5 @@ To add a vehicle, follow these steps
 3. Find the classname for the vehicle
 4. Copy this code: lbSetData [150, 0, "Vehcile classname HERE];
 5. Place the code in the same order as the vehicle name list
-6. Make sure to update this number here V based off where in the list you put it
-                        lbSetData [150, 0, "Vehcile classname HERE"];
+6. Make sure to update the 0 based off where in the list you put it
 7. The list starts at 0, and increases by one. Skip one spot for the Test vehicles Header, reference the original for help. Noticed that I skipped one number where the header would be 
