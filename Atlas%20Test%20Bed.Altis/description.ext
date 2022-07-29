@@ -1,0 +1,35 @@
+// Atlas Test
+#include "Console\defines.hpp"
+#include "Console\control.hpp"
+
+
+// GENERAL
+disabledAI    		= 1;              			// 0 = Fill with AI, 1 = Don't fill with AI.
+joinUnassigned   	= 1;           				// 0 = Join server assigned, 1 = Join unassigned.
+disableChannels[]   = {2,5,6};  				// 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System.
+enableDebugConsole  = 1;    					// 0 = Disabled, 1 = Admins only, 2 = Everyone (Why is this even an option?).
+showGPS     		= 1;   						// 0 = Disable GPS, 1 = Enable GPS.
+showCompass    		= 1;   						// 0 = Disable compass, 1 = Enable compass.
+showWatch    		= 1;   						// 0 = Disable watch, 1 = Enable watch.
+
+class Header {
+ gameType    		= Coop;   					// Game type
+ minPlayers    		= 1;    					// Min # of players the mission supports.
+ maxPlayers    		= 100;    					// Max # of players the mission supports.
+};
+
+// LOAD SCREEN
+author     			= "Red Advisor";
+onLoadName    		= "1st MEU Funop";
+onLoadMission  		= "We are just one unit… and an old one at that. But here we are. One year has past what anyone could ask of us. Our originals are gone. The friends we came with are gone. The friends we met moved on. And now, all that we may have left are those standing beside us and the duty that defines us –op after op, fighting side-by-side together. Where you see a bad unit, I see family, friends, and a place for who swore to fight their way through life before they’d ever turn their backs and run may take a break. And where you see one old unit… I see home. And that is always worth fighting for! -SSgt. Red <3";
+overviewText   		= "Standard Funop";
+loadScreen    		= "meuLoad.jpg";
+overviewPicture   	= "Screen.paa";
+
+// RESPAWN
+respawn     		= 3;   						// 0 = None, 1 = Bird, 2 = Instant, 3 = Base, 4 = Group, 5 = Side.
+respawnDelay   		= 10;      					// Time in seconds to respawn.
+respawnDialog   	= 1;   						// 0 = Off, 1 = Score table on death.
+respawnOnStart   	= 1;   						// Start mission as if each player just respawned (Dialogs etc). 1 = TRUE, 0 = FALSE.
+respawnButton    	= 1;  						// Disables respawn button in menu?
+

@@ -1,0 +1,10 @@
+_VehCurs = lbCurSel 150;
+_PadCurs = lbCurSel 151;
+_VehSel = lbData [150, _VehCurs];
+_PadSel = lbData [151, _PadCurs];
+_Pad = missionNamespace getVariable _PadSel;
+_pos = [getPos _Pad select 0, getPos _Pad select 1, getPosATL _Pad select 2];
+_Veh = CreateVehicle [_VehSel, _Pos, [], 0, "NONE"];
+{ _x addCuratorEditableObjects [[_Veh], true] } forEach allCurators;
+_Veh setDir (getDir _Pad);
+_Veh setPosATL _pos;
